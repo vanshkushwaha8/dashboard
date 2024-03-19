@@ -1,0 +1,321 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"> 
+    <meta name="viewport" 
+          content="width=device-width,  
+                   initial-scale=1.0"> 
+    <title>Innovation dashboard</title> 
+    <link rel="stylesheet" 
+          href="style.css"> 
+    <link rel="stylesheet" 
+          href="drop.css"> 
+</head> 
+  
+<body> 
+    
+    <!-- for header part -->
+    <header> 
+  
+        <div class="logosec"> 
+            <div class="logo">Innovation Hub</div> 
+            <img src= 
+"./Assets/menu1.png"
+                class="icn menuicn" 
+                id="menuicn" 
+                alt="menu-icon"> 
+        </div> 
+  
+        <div class="searchbar"> 
+           
+             
+              </div> 
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Products</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="myDropdown-mid">
+                    <img src= 
+                    "./Assets/search.png"
+                                        class="icn srchicn" 
+                                        alt="search-icon">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></div>
+                  <a href="Roadmap.html" target="_parent">Roadmap</a>
+                  <a href="Feedback.html">Feedback</a>
+                  <a href="Performance.html">Performance</a>
+                  <a href="Team.html">Team</a>
+                  <a href="Analytics.html">Analytics</a>
+                  <a href="support.html">Support</a>
+                  <a href="tools.html">Tools</a>
+                </div>
+              </div>
+        </div> 
+
+  
+        <div class="message"> 
+            <div class="circle"></div> 
+            <img src= 
+"./Assets/bell.png" 
+                 class="icn" 
+                 alt=""> 
+            <div class="dp"> 
+              <img src= 
+"./Assets/img3.png"
+                    class="dpicn" 
+                    alt="dp"> 
+              </div> 
+        </div> 
+  
+    </header> 
+  
+    <div class="main-container"> 
+        <div class="navcontainer"> 
+            <nav class="nav"> 
+                <div class="nav-upper-options"> 
+                    <div class="nav-option option1"> 
+                        <img src= 
+"./Assets/dashboard.png"
+                            class="nav-img" 
+                            alt="dashboard"> 
+                        <h3> Dashboard</h3> 
+                    </div> 
+  
+                    <div class="option2 nav-option"> 
+                        <img src= 
+"./Assets/art.png"
+                            class="nav-img" 
+                            alt="articles"> 
+                        <h3> Design Team</h3> 
+                    </div> 
+  
+                    <div class="nav-option option3"> 
+                        <img src= 
+"./Assets/project.png"
+                            class="nav-img" 
+                            alt="report"> 
+                        <h3> Marketing Team</h3> 
+                    </div> 
+  
+                    <div class="nav-option option4"> 
+                        <img src= 
+"./Assets/productivity.png"
+                            class="nav-img" 
+                            alt="institution"> 
+                        <h3> Development Team</h3> 
+                    </div> 
+  
+                    <div class="nav-option option5"> 
+                        <img src= 
+"./Assets/report.png"
+                            class="nav-img" 
+                            alt="blog"> 
+                        <h3> Products</h3> 
+                        
+                    </div> 
+                    
+  
+                    <div class="nav-option option6"> 
+                        <img src= 
+"./Assets/settings.png"
+                            class="nav-img" 
+                            alt="settings"> 
+                        <h3> Settings</h3> 
+                    </div> 
+  
+                    <div class="nav-option logout"> 
+                        <img src= 
+"./Assets/power-off.png"
+                            class="nav-img" 
+                            alt="logout"> 
+                        <h3>Logout</h3> 
+                    </div> 
+                    
+  
+                </div> 
+            </nav> 
+        </div> 
+        <div class="main"> 
+  
+            <div class="searchbar2"> 
+                <input type="text" 
+                       name="" 
+                       id="" 
+                       placeholder="Search"> 
+                <div class="searchbtn"> 
+                  <img src= 
+"./Assets/search.png"
+                        class="icn srchicn" 
+                        alt="search-button"> 
+                  </div> 
+            </div> 
+  
+            <div class="box-container"> 
+  
+                <div class="box box1"> 
+                    <div class="text"> 
+                        <h2 class="topic-heading">All brands</h2> 
+                    </div> 
+  
+                    
+                </div> 
+  
+                <div class="box box2"> 
+                    <div class="text"> 
+                        <h2 class="topic-heading">Desk</h2> 
+                       
+                    </div> 
+  
+                    
+                </div> 
+
+                <div class="box box3"> 
+                    <div class="text"> 
+                        <h2 class="topic-heading">Tags</h2> 
+                      
+                    </div> 
+  
+                </div> 
+  
+                <div class="box box4"> 
+                    <div class="text"> 
+                        <h2 class="topic-heading">Design</h2> 
+                        
+                    </div> 
+  
+            </div> 
+  
+            <div class="report-container"> 
+                <div class="report-header"> 
+                    <h1 class="recent-Articles">View All</h1> 
+                    <button class="view">Import/Export</button> 
+                </div> 
+  
+                <div class="report-body"> 
+                    <div class="report-topic-heading"> 
+                        <h3 class="t-op">Brand</h3> 
+                        <h3 class="t-op">Description</h3> 
+                        <h3 class="t-op">Categories</h3> 
+                        <h3 class="t-op">Tags</h3> 
+                    </div> 
+  
+                    <div class="items"> 
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                "./Assets/logo (2).png" 
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                                <h3 class="t-op-nextlvl">VAnshTastic</h3> </div> 
+                            <h3 class="t-op-nextlvl">It is a famous brand company</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#vanshkushwaha</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                "./Assets/flipkart.png" 
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                                <h3 class="t-op-nextlvl">Flipkart</h3> </div>  
+                            <h3 class="t-op-nextlvl">It is a online shopping platform</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#flipkartonline</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                "./Assets/shopify.jpg" 
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                                <h3 class="t-op-nextlvl">Shopify</h3> </div> 
+                            <h3 class="t-op-nextlvl">It is a online shopping platform</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#Published</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                            <img src= 
+                            "./Assets/downloada.png" 
+                                                class="icn srchicn" 
+                                                alt="search-icon">
+                            <h3 class="t-op-nextlvl">Amazon</h3> </div>
+                            <h3 class="t-op-nextlvl">It is a online shopping platform</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#Amazon</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                "./Assets/downloadpp.png" 
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                                <h3 class="t-op-nextlvl">PayPal</h3> </div>
+                            <h3 class="t-op-nextlvl">It is a online shopping platform</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#PayPal</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                            <img src= 
+                            "./Assets/google.png"
+                                                class="icn srchicn" 
+                                                alt="search-icon">
+                            <h3 class="t-op-nextlvl">Google</h3> </div>
+                            <h3 class="t-op-nextlvl">It is a online shopping platform</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">Published</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                "./Assets/downloadm.png"
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                                <h3 class="t-op-nextlvl">Microsoft</h3> </div>
+                                <h3 class="t-op-nextlvl"> It  is a It or product base company</h3> 
+                                <h3 class="t-op-nextlvl">E-commerce</h3> 
+                                <h3 class="t-op-nextlvl label-tag">#Microsoft</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                            <img src= 
+                                "./Assets/downloadD.png"
+                                                    class="icn srchicn" 
+                                                    alt="search-icon">
+                            <h3 class="t-op-nextlvl">Disney</h3> </div>
+                            <h3 class="t-op-nextlvl">It is online platform for movie,web series</h3> 
+                            <h3 class="t-op-nextlvl">Publishing</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#Disney</h3> 
+                        </div> 
+  
+                        <div class="item1"> 
+                            <div class="itemin">
+                                <img src= 
+                                    "./Assets/downloadB.jpeg"
+                                                        class="icn srchicn" 
+                                                        alt="search-icon">
+                                <h3 class="t-op-nextlvl">Boat</h3> </div>
+                            <h3 class="t-op-nextlvl">online shopping platform for Electronics-Accessories</h3> 
+                            <h3 class="t-op-nextlvl">E-commerce</h3> 
+                            <h3 class="t-op-nextlvl label-tag">#Boat</h3> 
+                        </div> 
+                        <div class="add-section">+add section</div>
+  
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+  
+    <script src="./index.js"></script> 
+</body> 
+</html>
